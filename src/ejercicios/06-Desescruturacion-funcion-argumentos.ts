@@ -5,7 +5,8 @@
     ===== Video 20 - Desescruturacion de argumentos.  =====
 */
 
-interface IProducto {
+//                  //Estoy exportando la interface llamada IProducto.
+export interface IProducto {
     des: string, 
     precio: number
 }
@@ -20,7 +21,7 @@ const tableta: IProducto = {
     precio: 350
 }
 
-function calcularISV(
+export function calcularISV(
 
     productos : IProducto[]
     //              //Devuelve un arreglo.
