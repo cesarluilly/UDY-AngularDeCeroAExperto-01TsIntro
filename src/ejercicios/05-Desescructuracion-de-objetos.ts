@@ -2,6 +2,7 @@
     //              //Inician comentarios en 21 y terminan en  *****************
     //              //  terminan en 81.
     ===== Código de TypeScript =====
+    ===== Video  19 - Desescructuracion de arreglos.  =====
 */
 interface IDetalle{
     autor: string;
