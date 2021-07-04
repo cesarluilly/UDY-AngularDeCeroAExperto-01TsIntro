@@ -29,10 +29,33 @@ function multiplicar (
     return numero * base;
 }
 
+//                  //Definicion de una interfas.                
+interface IPersonajeLOR {
+    nombre : string;
+    pv: number;
+    //              //Declara una funcion en su forma corta.
+    mostraHP: () => void; 
+}
 
-const resultado = multiplicar(10, 2);
+function curar( 
+    personaje : IPersonajeLOR, 
+    curarX : number 
+    ) : void{
 
-console.log(resultado);
+    personaje.pv += curarX; 
+    console.log(personaje);
+}
+
+const nuevoPersonaje : IPersonajeLOR = {
+    nombre: 'Strider',
+    pv : 50,
+    mostraHP() {
+        console.log('Puntos de vida:', this.pv)
+    }
+}
+
+curar(nuevoPersonaje , 20);
+nuevoPersonaje.mostraHP();
 
 
 
