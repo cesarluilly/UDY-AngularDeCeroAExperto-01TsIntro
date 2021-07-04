@@ -2,6 +2,7 @@
     //              //Inician comentarios en 21 y terminan en  *****************
     //              //  terminan en 81.
     ===== Código de TypeScript =====
+    ===== Video  15 y 16- Funciones basicas  =====
 */
 
 //                  //Funcion normal.

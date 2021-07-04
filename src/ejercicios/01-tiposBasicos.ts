@@ -6,6 +6,7 @@ console.log('Y despues con Angular, se siente super genial!');
 
 /*
     ===== Código de TypeScript =====
+    ===== Video 13 - Tipos basicos y conceptos Generales =====
 */
 
 let jsNombre = "var en javascript";

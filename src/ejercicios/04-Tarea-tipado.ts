@@ -2,6 +2,7 @@
     //              //Inician comentarios en 21 y terminan en  *****************
     //              //  terminan en 81.
     ===== Código de TypeScript =====
+    ===== Video  17 - Tarea sobre objetos e interfaces.  =====
 */
 
 interface IDireccion {

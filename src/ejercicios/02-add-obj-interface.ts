@@ -1,5 +1,6 @@
 /*
     ===== Código de TypeScript =====
+    ===== Video 14 - Objetos y arreglos e interfaces. =====
 */
 
 let habilidades: (boolean | string)[] = ["Bash", "Counter"];
